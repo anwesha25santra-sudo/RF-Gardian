@@ -1,5 +1,4 @@
 import streamlit as st
-from styles import load_css
 from utils import load_dataset, dashboard_metrics
 from ai_model import load_model
 from hardware import get_live_data
@@ -26,7 +25,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-load_css()
+
 
 
 # Load Resources
